@@ -49,7 +49,7 @@ const Contact = () => {
           <p>
           I am enthusiastic about pursuing a career as a software developer, and I welcome any inquiries or discussions you may have regarding my interest and qualifications in the field.
           </p>
-          <p><b>shabboo [DOT] zamanian [AT] gmail.com </b></p>
+          <p><b>shabboo.zamanian@gmail.com </b></p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
               <ul>

@@ -10,7 +10,9 @@ import { faLinkedin, faGithub, faSkype } from '@fortawesome/free-brands-svg-icon
 // import { faSomeIcon } from '@fortawesome/free-solid-svg-icons';
 
 
-const Sidebar = () => (
+const Sidebar = () => {
+
+    return (
     <div className='nav-bar'>
         <Link className='logo' to='/'>
         <img src={LogoSh} alt='logo' />
@@ -28,7 +30,7 @@ const Sidebar = () => (
                 className="about-link" 
                 to="/about"
             >
-                <FontAwesomeIcon icon={faUser} color="4d4d4e" />
+                <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
             </NavLink> 
             <NavLink 
                 exact='true' 
@@ -36,7 +38,7 @@ const Sidebar = () => (
                 className="contact-link" 
                 to="/contact"
             >
-                <FontAwesomeIcon icon={faEnvelope} color="4d4d4e" />
+                <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
             </NavLink> 
             <NavLink 
                 exact='true' 
@@ -45,7 +47,7 @@ const Sidebar = () => (
                 to="/projects"
             >
             
-                <FontAwesomeIcon icon={faCode} color="4d4d4e" />
+                <FontAwesomeIcon icon={faCode} color="#4d4d4e" />
             </NavLink>
             <ul>
                 <li>
@@ -54,7 +56,7 @@ const Sidebar = () => (
                     rel='noreferrer'
                     href='https://www.linkedin.com/in/shabboo-zamanian/'
                     >
-                        <FontAwesomeIcon icon={faLinkedin} color="4d4d4e" />
+                        <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
                     </a>
                 </li>
                 <li>
@@ -63,21 +65,22 @@ const Sidebar = () => (
                     rel='noreferrer'
                     href='https://github.com/Shabbo0o'
                     >
-                        <FontAwesomeIcon icon={faGithub} color="4d4d4e" />
+                        <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
                     </a>
                 </li>
-                <li>
+                {/* <li>
                     <a
                     target='_blank'
                     rel='noreferrer'
                     href='live:shabboo.zamanian'
                     >
-                        <FontAwesomeIcon icon={faSkype} color="4d4d4e" />
+                        <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
                     </a>
-                </li>
+                </li> */}
             </ul>
         </nav>
     </div>
     )
+}
 
 export default Sidebar;

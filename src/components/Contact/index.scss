@@ -81,9 +81,10 @@
     margin-top: 10%;
     margin-left: 50%;
     padding-right: 20px;
-    padding-left: 80px;
+    padding-left: 5%;
     padding-top: 20px;
     padding-bottom: 20px;
+    overflow: hidden;
   }
   
   .leaflet-container {
@@ -95,23 +96,3 @@
     animation-fill-mode: forwards;
   }
   
-@media screen and (max-width: 1200px) {
-  .map-wrap {
-    float:none;
-    margin: 0;
-    width: 50%;
-    height: 50%;
-  }
-  
-  @media screen and (max-width: 767px) {
-    .map-wrap {
-      float: none; /* Reset the float for mobile layout */
-      margin: 0;
-      width: 100%; /* Full width on mobile */
-      height: auto; /* Auto height, or adjust as needed */
-    }
-  }
-  .info-map {
-    display: none;
-  }
-}

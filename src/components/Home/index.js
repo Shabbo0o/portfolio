@@ -44,7 +44,7 @@ const Home = () => {
                     idx={25}
                 />
                 </h1>
-                <h2>Full-Stack Developer / Database Designer / Business Analyst</h2>
+                <h2>Full Stack Software Engineer</h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
         <div className='stage-cube-cont-home'>
