@@ -14,4 +14,4 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 If you encounter this error: **react-scripts: command not found**, Run this command line in the project directory:
-### npm install react-scripts --save
+### `npm install react-scripts --save`
