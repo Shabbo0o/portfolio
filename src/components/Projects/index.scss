@@ -32,22 +32,22 @@
   }
 }
   .a-link:link {
-    color: rgb(43, 164, 56);
+    color: rgb(202, 204, 202);
     background-color: transparent;
     text-decoration: underline;
   }
   .a-link:visited {
-    color: rgb(43, 164, 56);
+    color: #ffc85d;
     background-color: transparent;
     text-decoration: underline;
   }
   .a-link:hover {
-    color: yellow;
+    color: rgb(202, 204, 202);
     background-color: transparent;
     text-decoration: underline;
   }
   .a-link:active {
-    color: rgb(61, 229, 78);
+    color: rgba(202, 204, 202, 0.687);
     background-color: transparent;
     text-decoration: underline;
   }
@@ -58,6 +58,7 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    background-color: #141414;
     // z-index: -1;
 
 }
@@ -67,7 +68,7 @@
     width: 300px;
     animation: pulse 4s;
     height: 300px;
-    background-color: #022c43;
+    background-color: #141414;
     // border: 2px solid #4d4d4e;
     justify-content : center;
     place-content : center;
@@ -78,7 +79,7 @@
 [class ^="texts-"]{
     width: 300px;
     height: 70px;
-    background-color: #022c43;
+    background-color: #141414;
     text-align: center;
     justify-content :center;
     place-content : center;

@@ -1,5 +1,5 @@
 .nav-bar {
-    background-color: #181818;
+    background-color: #020202;
     width: 60px;
     height: 100%;
     position:fixed;
@@ -45,7 +45,7 @@ nav{
             transition: all 0.3s ease-out;
         }
         :hover {
-            color: #ffd700;
+            color: #ffc85d;
 
             svg {
                 opacity: 0;
@@ -91,19 +91,17 @@ nav{
         // }
         a.active {
             svg{
-                color:#ffd700;
+                color:#ffc85d;
             }
         }
     }
     ul{
         position: absolute;
-        // bottom: 20px;
         width: 100%;
         display: block;
         padding: 0;
         list-style: none;
         text-align: center;
-        margin: 0;
         
         li{
             a {
@@ -114,7 +112,7 @@ nav{
 
                 &:hover {
                     .anchor-icon {
-                        color: #ffd700;
+                        color: #ffc85d;
                     }
                 }
             }

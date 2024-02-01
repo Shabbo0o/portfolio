@@ -10,7 +10,7 @@
         padding-left: 25px;
     }
     h1 {
-        color: #fff;
+        color: #d2d2d2;
         font-size: 56px;
         margin: 0;
         font-family: 'Coolvetica';
@@ -49,8 +49,8 @@
 }
 
 h2 {
-    color: #8d8d8d;
-    margin-top: 20px;
+    color: #ffc95da6;
+    margin-top: 5px;
     font-weight: bold;
     font-size: 20px;
     font-family: sans-serif;
@@ -59,21 +59,21 @@ h2 {
 }
 
 .flat-button {
-    color:#ffd700;
+    color:#ffc85d;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: 'san-serif';
     text-decoration: none;
     padding: 10px 18px;
-    border: 1px solid #ffd700;
+    border: 1px solid #ffc85d;
     margin-top: 25px;
     float: left;
     animation: fadeIn 1s 1.8s backwards;
     white-space: nowrap;
 
     &:hover {
-        background: #ffd700;
+        background: #ffc85d;
         color: #333;
         
     }

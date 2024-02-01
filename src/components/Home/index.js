@@ -1,9 +1,9 @@
-import LogoTitle from '../../assets/images/logo-s.png';
+// import LogoTitle from '../../assets/images/logo-s.png';
 import { Link } from 'react-router-dom'; 
 import './index.scss';
 import { useState, useEffect} from 'react';
 import AnimatedLetters from '../AnimatedLetters';
-import Logo from '../Logo';
+// import Logo from '../Logo';
 import Loader from 'react-loaders';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBootstrap, faCss3, faGithub, faHtml5, faJsSquare, faPython, faReact } from '@fortawesome/free-brands-svg-icons';
@@ -11,8 +11,8 @@ import { faDatabase } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = ['h', 'a', 'b', 'b', 'o', 'o']
-    const jobArray = ['W', 'e', 'b', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e','r', '.' ]
+    const nameArray = [' ', 'S', 'h', 'a', 'b', 'b', 'o', 'o']
+    const jobArray = ['A', ' ', 'W', 'e', 'b', ' ', 'D', 'e', 'v', 'e', 'l', 'o', 'p', 'e','r', '.' ]
 
     useEffect(() => {
         const timeoutId = setTimeout(() => {
@@ -33,7 +33,7 @@ const Home = () => {
                 <br />
                 <span className={`${letterClass} _13`}>I</span>
                 <span className={`${letterClass} _14`}>'m</span>
-                <img src={LogoTitle} alt="developer" />
+                {/* <img src={LogoTitle} alt="developer" /> */}
                 <AnimatedLetters letterClass={letterClass} 
                     strArray={nameArray}
                     idx={15}
