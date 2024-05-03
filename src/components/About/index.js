@@ -41,7 +41,6 @@ const About = () => {
       Cloud services: Azure, Repl.it, DevOps, Docker.`,
       `Working with <b>visual editors</b> like <b>Webflow</b> enriched my <b>frontend development</b> skills. This journey, from intern to project leader, has honed my leadership and technical abilities, making me adept for a frontend developer role.`,
       `I was responsible and a lead for the Requirement Analysis, <b>Database Design</b>, creating the <b>Use Case documents</b>, <b>Class diagram</b>, Test Case, and other relevant subjects.`
-      // Add more sentences as needed
     ];
 
     // if (showMoreExperience) {
@@ -85,11 +84,19 @@ const About = () => {
           />
         </h1>
         <h2>
-          Lexicon AB / Stockholm / Sep 2023 - Present
+          Yayloh / Stockholm / Feb 2024 - Present
         </h2>
-        <p>I am working in a boot camp, where I am enhancing my skills in front-end, back-end, cloud, security, and more. 
+        <p>
+          In this company, I am working as a <b>full-stack developer</b>.<br />
+          Technologies: <b>Python, Flask, JavaScript, React, MySQL.</b> <br />
+        </p>
+        <h2>
+          Lexicon AB / Stockholm / Sep 2023 - Feb 2024
+        </h2>
+        <p>
+          I have worked at a boot camp where I enhanced my skills in front-end, back-end, cloud computing, security, and more.
         <br></br>
-        <b>Python programming basics:</b> HTML, CSS, JavaScript, Python, Scum/Agile, UI/UX, GitHub.
+        {/* <b>Python programming basics:</b> HTML, CSS, JavaScript, Python, Scum/Agile, UI/UX, GitHub.
         <br></br>
         <b>Python programming Advanced:</b> Object Oriented, Web development, Django.
         <br></br>
@@ -97,7 +104,15 @@ const About = () => {
         <br></br>
         <b>IT-security:</b> Penetration testing, Ethical Hacking, SQL injections, Social Engineering. Virtual Machines, Kali-Linux.
         <br></br>
-        <b>Cloud services:</b> Azure, Repl.it, DevOps, Docker.
+        <b>Cloud services:</b> Azure, Repl.it, DevOps, Docker. */}
+        - <b>Technologies</b>: Python, Django, JavaScript, ReactJS, UI/UX.<br></br>
+      - <b>Methodology</b>: Scrum/Agile, GitHub.<br></br>
+      - <b>Database</b>: MySQL, MongoDB, SQLite.<br></br>
+      - <b>IT security</b>: Penetration testing, Ethical Hacking, SQL injections, Social Engineering, Virtual Machines, Kali-Linux.<br></br>
+      - <b>Cloud services</b>: Azure, Repl.it, DevOps, Docker.<br></br>
+      - An E-Commerce Project: I am writing an e-commerce site using Django, JavaScript, HTML, CSS, and MySQL.<br></br>
+      - <b>Portfolio</b>: A portfolio project, written in ReactJS. Link in my Github profile page.<br></br>
+      - A frontend project for a hypothetical restaurant, written in JavaScript, and BootStrap.
         {/* <a href='#'>More</a> */}
         </p>
         {/* <p>
@@ -136,7 +151,7 @@ const About = () => {
           />
         </h1>
         <h2>
-        Lexicon AB / Sweden / 2021 - Present
+        Lexicon AB / Sweden / 2023 - Present
         </h2>
         <p>Python and IT security program.</p>
         <h2>
