@@ -115,17 +115,18 @@ const Projects = () => {
               rel='noopener noreferrer' 
               className='a-link'>
               My GitHub
-            </a></p>
-            <div className='stage-cube-cont header-image'>
-          <div className='cubespinner'>
-            <div className='face1'><FontAwesomeIcon icon={faCss3} /></div>
-            <div className='face2'><FontAwesomeIcon icon={faReact} /></div>
-            <div className='face3'><FontAwesomeIcon icon={faJsSquare} /></div>
-            <div className='face4'><FontAwesomeIcon icon={faDatabase} /></div>
-            <div className='face5'><FontAwesomeIcon icon={faPython} /></div>
-            <div className='face6'><FontAwesomeIcon icon={faBootstrap} /></div>
+            </a>
+          </p>
+          <div className='stage-cube-cont header-image'>
+            <div className='cubespinner'>
+              <div className='face1'><FontAwesomeIcon icon={faCss3} /></div>
+              <div className='face2'><FontAwesomeIcon icon={faReact} /></div>
+              <div className='face3'><FontAwesomeIcon icon={faJsSquare} /></div>
+              <div className='face4'><FontAwesomeIcon icon={faDatabase} /></div>
+              <div className='face5'><FontAwesomeIcon icon={faPython} /></div>
+              <div className='face6'><FontAwesomeIcon icon={faBootstrap} /></div>
+            </div>
           </div>
-        </div>
         </div>
       
 
