@@ -21,33 +21,39 @@ const Sidebar = () => {
         <nav>
             <NavLink 
                 exact='true' 
-                activeclassname="active" to="/">
-                <FontAwesomeIcon icon={faHome} color="4d4d4e" />
+                activeclassname="active" to="/"
+                data-tooltip="HOME"
+                >
+                <FontAwesomeIcon icon={faHome} color="#919196" />
             </NavLink>
             <NavLink 
                 exact='true' 
                 activeclassname="active" 
                 className="about-link" 
                 to="/about"
+                data-tooltip="ABOUT"
             >
-                <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faUser} color="#919196" />
             </NavLink> 
+
             <NavLink 
                 exact='true' 
                 activeclassname="active" 
                 className="contact-link" 
                 to="/contact"
+                data-tooltip="CONTACT"
             >
-                <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faEnvelope} color="#919196" />
             </NavLink> 
             <NavLink 
                 exact='true' 
                 activeclassname="active" 
                 className="projects-link" 
                 to="/projects"
+                data-tooltip="PROJECTS"
             >
             
-                <FontAwesomeIcon icon={faCode} color="#4d4d4e" />
+                <FontAwesomeIcon icon={faCode} color="#919196" />
             </NavLink>
             <ul>
                 <li>
@@ -55,8 +61,9 @@ const Sidebar = () => {
                     target='_blank'
                     rel='noreferrer'
                     href='https://www.linkedin.com/in/shabboo-zamanian/'
+                    data-tooltip="LinkedIn"
                     >
-                        <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                        <FontAwesomeIcon icon={faLinkedin} color="#919196" />
                     </a>
                 </li>
                 <li>
@@ -64,8 +71,9 @@ const Sidebar = () => {
                     target='_blank'
                     rel='noreferrer'
                     href='https://github.com/Shabbo0o'
+                    data-tooltip="GitHub"
                     >
-                        <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                        <FontAwesomeIcon icon={faGithub} color="#919196" />
                     </a>
                 </li>
                 {/* <li>
