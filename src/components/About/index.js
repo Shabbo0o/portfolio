@@ -39,7 +39,12 @@ const About = () => {
   const renderEducation = () => (
     <>
       <h2>Chas Academy / Sweden / Sep 2024 - Jun 2026</h2>
-      <p>Front-end Developer.</p>
+      <p><b>Front-end Developer.</b></p>
+      <p>- JavaScript, ReactJS, ReactNative, TypeScript, NodeJS, NextJS</p>
+      <p>- UI/UX, Figma, Tailwind</p>
+      <p>- Scrum/Agile, GitHub, GitLab</p>
+      <p>- MySQL</p>
+      <p>- AWS</p>
       <h2>Lexicon AB / Sweden / Sep 2023 - Feb 2024</h2>
       <p>Python and IT security program.</p>
       <h2>Linnaeus University / Sweden / Jan 2021 - Aug 2023</h2>
